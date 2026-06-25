@@ -12,44 +12,136 @@ body{
     background-position:center;
     background-attachment:fixed;
     color:white;
+    margin:0;
 }
 
-.main{
+.section{
     max-width:900px;
-    margin:auto;
-    background:rgba(0,0,0,0.7);
+    margin:30px auto;
+    background:rgba(0,0,0,0.75);
     padding:20px;
-    margin-top:50px;
+    border:2px solid white;
+}
+
+h1{
+    font-size:60px;
+    margin-top:30px;
+    text-shadow:3px 3px 5px black;
+}
+
+h2{
+    border-bottom:2px solid white;
+    padding-bottom:10px;
 }
 
 .button{
     display:inline-block;
+    margin-top:20px;
     padding:15px 30px;
     background:black;
     color:white;
     text-decoration:none;
     border:2px solid white;
-    margin-top:20px;
+    font-weight:bold;
+}
+
+.button:hover{
+    background:white;
+    color:black;
+}
+
+footer{
+    margin-top:60px;
+    padding:20px;
+    background:rgba(0,0,0,0.8);
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+footer a:hover{
+    text-decoration:underline;
 }
 </style>
 </head>
 
 <body>
 
-<div class="main">
-
 <h1>KRAZY RECORDS</h1>
 
-<p>
-Welcome to the official Krazy Records website and archive.
-Explore artists, releases, label history, and current projects.
-</p>
+<div class="section">
+    <h2>WELCOME</h2>
 
-<a href="artists.html" class="button">
-ENTER ARTIST ARCHIVE
-</a>
+    <p>
+        Welcome to the official Krazy Records website and discography archive.
+        Explore artists, releases, label history, and current projects.
+    </p>
 
+    <a href="artists.html" class="button">
+        ENTER ARTIST ARCHIVE
+    </a>
 </div>
+
+<div class="section">
+    <h2>ABOUT KRAZY RECORDS</h2>
+
+    <p>
+        Krazy Records is an independent horrorcore record label founded in 2026.
+        The label serves as both a home for underground artists and an archive
+        documenting releases, artist histories, and ongoing projects.
+    </p>
+</div>
+
+<div class="section">
+    <h2>LATEST NEWS</h2>
+
+    <p>• Website launched</p>
+    <p>• The Halloween Killaz artist page added</p>
+    <p>• New releases currently in development</p>
+</div>
+
+<div class="section">
+    <h2>FEATURED RELEASE</h2>
+
+    <h3>A Bloody Valentine's</h3>
+
+    <p>Valentine's Special 2026</p>
+
+    <p>
+        1. A Bloody Valentine's (Ft. Proven Sawlid)
+        <br>
+        2. Steppin' 2 U
+    </p>
+</div>
+
+<div class="section">
+    <h2>KRAZY RECORDS OVERVIEW</h2>
+
+    <p>Founded: 2026</p>
+    <p>Status: Active</p>
+    <p>Artists Signed: 2</p>
+    <p>Former Artists: 0</p>
+    <p>Primary Genre: Horrorcore Rap</p>
+</div>
+
+<div class="section">
+    <h2>CONTACT</h2>
+
+    <p>Email: krazyrecords26@gmail.com</p>
+
+    <p>
+        <a href="https://youtube.com/@krazy_records?si=7I8uP7b4GyxvS-Ul" target="_blank">YouTube</a>
+        |
+        <a href="https://www.tiktok.com/@krazy.records?_r=1&_t=ZP-97Uq5NvVhxn" target="_blank">TikTok</a>
+    </p>
+</div>
+
+<footer>
+    <p>© 2026 Krazy Records. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
