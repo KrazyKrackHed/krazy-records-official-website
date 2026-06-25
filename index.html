@@ -29,15 +29,20 @@ input{
 
 .grid{
     display:grid;
-    grid-template-columns:repeat(4, 250px);
+    grid-template-columns:repeat(4, 200px);
     justify-content:center;
     gap:30px;
-    margin-top:20px;
+}
+
+.artist{
+    text-align:center;
 }
 
 .artist img{
     width:200px;
     height:200px;
+    object-fit:cover;
+    border:3px solid black;
 }
 
 .artist-name{
